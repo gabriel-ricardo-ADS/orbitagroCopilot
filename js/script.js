@@ -96,61 +96,61 @@ const agroDB = {
                 nome: "Lagarta-elasmo (Elasmopalpus lignosellus)",
                 desc: "Conhecida como broca-do-colo. Penetra na haste das plântulas, podendo causar a morte da planta.",
                 imgBug: "assets/lagarta-elasmo.jpg",
-                imgDamage: "https://placehold.co/600x400/0a0f06/8bc34a?text=Dano:+Morte+da+Plantula\n(Broca+no+Colo)"
+                imgDamage: "assets/lagarta-elasmo-dano.png"
             },
             {
                 nome: "Corós (Diloboderus abderus)",
                 desc: "Larvas que vivem no solo e atacam o sistema radicular e as sementes, gerando reboleiras com falhas de estande.",
                 imgBug: "assets/larva_coros.jpg",
-                imgDamage: "https://placehold.co/600x400/0a0f06/8bc34a?text=Dano:+Falhas+de+Estande\n(Raizes+Destruidas)"
+                imgDamage: "assets/soja-córos.webp"
             },
             {
                 nome: "Lagarta-rosca (Agrotis ipsilon)",
                 desc: "Corta as plantas jovens rente ao solo, causando tombamento e falhas na germinação.",
                 imgBug: "assets/lagarta_rosca.png",
-                imgDamage: "https://placehold.co/600x400/0a0f06/8bc34a?text=Dano:+Tombamento\n(Caule+Cortado+no+Solo)"
+                imgDamage: "assets/lagarta-rosca-dano.webp"
             },
             {
                 nome: "Lagarta-da-soja (Anticarsia gemmatalis)",
                 desc: "A mais clássica desfolhadora, tem coloração esverdeada e listras brancas. Alimenta-se vorazmente das folhas.",
                 imgBug: "assets/lagarta-da-soja.png",
-                imgDamage: "https://placehold.co/600x400/0a0f06/8bc34a?text=Dano:+Desfolha+Total\n(Folhas+Consumidas)"
+                imgDamage: "assets/dano-lagarta-soja.webp"
             },
             {
                 nome: "Falsa-medideira (Chrysodeixis includens)",
                 desc: "As lagartas movem-se curvando o corpo e consomem o limbo foliar. São de controle mais difícil e causam grandes prejuízos.",
                 imgBug: "assets/falsa-medideira.jpg",
-                imgDamage: "https://placehold.co/600x400/0a0f06/cddc39?text=Dano:+Limbo+Foliar+Consumido\n(Nervuras+Intactas)"
+                imgDamage: "assets/dano_falsamedideira.webp"
             },
             {
                 nome: "Complexo Spodoptera",
                 desc: "Atacam desde folhas até flores e vagens, apresentando resistência a algumas tecnologias Bt.",
                 imgBug: "assets/Complexo-Spodoptera.jpg",
-                imgDamage: "https://placehold.co/600x400/1a0800/ff9800?text=Dano:+Desfolha+e+Vagens+Atacadas\n(Resistente+a+Bt)"
+                imgDamage: "assets/Complexo_Spodoptera_dano.webp"
             },
             {
                 nome: "Helicoverpa (Helicoverpa armigera)",
                 desc: "Altamente polífaga e destrutiva, consome folhas, brotos, flores e perfura vagens.",
                 imgBug: "assets/Helicoverpa.jpg",
-                imgDamage: "https://placehold.co/600x400/1a0000/f44336?text=Dano:+Vagens+Perfuradas\n(Flores+e+Brotos+Consumidos)"
+                imgDamage: "assets/helicoverpa_dano.webp"
             },
             {
                 nome: "Complexo de Percevejos",
                 desc: "Inserem seus estiletes nos grãos em formação, causando abortamento, grãos chochos, manchas (soja picada) e retenção foliar.",
                 imgBug: "assets/Complexo-Percevejos-soja.webp",
-                imgDamage: "https://placehold.co/600x400/1a1400/ffc107?text=Dano:+Graos+Chochos+e+Manchados\n(Soja+Picada)"
+                imgDamage: "assets/percevejo_dano.webp"
             },
             {
                 nome: "Mosca-branca (Bemisia tabaci)",
                 desc: "Suga a seiva da planta e expele substância que favorece a fumagina, prejudicando a fotossíntese, além de transmitir viroses.",
                 imgBug: "assets/mosca-branca.jpg",
-                imgDamage: "https://placehold.co/600x400/111111/e0e0e0?text=Dano:+Fumagina+nas+Folhas\n(Viroses+e+Amarelamento)"
+                imgDamage: "assets/mosca_branca_dano.webp"
             },
             {
                 nome: "Ácaros (Tetranychus urticae)",
                 desc: "Atacam a parte inferior das folhas causando amarelamento e teias, especialmente em períodos de seca prolongada.",
                 imgBug: "assets/acaros-soja.jpg",
-                imgDamage: "https://placehold.co/600x400/1a1a00/ffeb3b?text=Dano:+Amarelamento+e+Teias\n(Face+Inferior+das+Folhas)"
+                imgDamage: "assets/acaros_dano.webp"
             }
         ]
     },
@@ -174,26 +174,26 @@ const agroDB = {
             {
                 nome: "Cigarrinha-do-milho (Dalbulus maidis)",
                 desc: "Vetor de patógenos (molicutes e vírus). Causa enfezamentos. Plantas amareladas, nanismo, espigas chochas e falhas severas.",
-                imgBug: "https://placehold.co/600x400/0a1400/8bc34a?text=Foto:+Cigarrinha-do-Milho\n(Dalbulus+maidis)",
-                imgDamage: "https://placehold.co/600x400/1a1000/ffc107?text=Dano:+Enfezamento+do+Milho\n(Plantas+Nanicas+e+Amareladas)"
+                imgBug: "assets/cigarra_milho.webp",
+                imgDamage: "assets/cigarra_milho.png"
             },
             {
                 nome: "Percevejo-barriga-verde (Dichelops furcatus)",
                 desc: "Ataca a base do colmo de plantas jovens, sugando seiva e injetando toxinas. Causa 'coração morto', furos transversais e manchas.",
-                imgBug: "assets/barriga-verde0.png",
-                imgDamage: "assets/barriga-verde.png"
+                imgBug: "assets/barriga-verde.png",
+                imgDamage: "assets/barriga-verde0.png"
             },
             {
                 nome: "Lagarta-elasmo (Elasmopalpus lignosellus)",
                 desc: "Destrutiva em secas. Penetra no coleto da planta, alimentando-se de tecidos. Resulta em murchamento e falhas nas linhas.",
                 imgBug: "assets/lagarta-elasmo.jpg",
-                imgDamage: "https://placehold.co/600x400/0a1400/8bc34a?text=Dano:+Falhas+nas+Linhas\n(Murcha+e+Morte+da+Plantula)"
+                imgDamage: "assets/lagarta-elasmo0.png"
             },
             {
                 nome: "Larva-alfinete (Diabrotica speciosa)",
                 desc: "Fase larval de um besouro comum. Representa grande ameaça ao sistema radicular da cultura do milho.",
-                imgBug: "https://placehold.co/600x400/0a1400/8bc34a?text=Foto:+Larva-alfinete\n(Diabrotica+speciosa)",
-                imgDamage: "https://placehold.co/600x400/1a0800/ff9800?text=Dano:+Raizes+Destruidas\n(Acamamento+e+Falhas)"
+                imgBug: "assets/larva_alfinete.webp",
+                imgDamage: "assets/larva_alfinete.png"
             }
         ]
     },
@@ -211,32 +211,32 @@ const agroDB = {
             {
                 nome: "Broca-da-cana (Diatraea saccharalis)",
                 desc: "Abrem galerias no interior dos colmos, favorecendo fungos e tombamento. Reduz drasticamente açúcar e rendimento do etanol.",
-                imgBug: "https://placehold.co/600x400/0f1a08/8bc34a?text=Foto:+Broca-da-Cana\n(Diatraea+saccharalis)",
-                imgDamage: "https://placehold.co/600x400/1a0800/ff9800?text=Dano:+Galerias+no+Colmo\n(Tombamento+e+Fusariose)"
+                imgBug: "assets/broca_cana.webp",
+                imgDamage: "assets/broca_cana_dano.webp"
             },
             {
                 nome: "Cigarrinha-das-raízes (Mahanarva fimbriolata)",
                 desc: "Ninfas sugam raízes, adultos atacam folhas. Injetam toxinas que causam amarelecimento e queima da planta.",
-                imgBug: "https://placehold.co/600x400/0f1a08/8bc34a?text=Foto:+Cigarrinha-das-Raizes\n(Mahanarva+fimbriolata)",
-                imgDamage: "https://placehold.co/600x400/1a1000/ffc107?text=Dano:+Queima+da+Ponta+das+Folhas\n(Amarelamento+Severo)"
+                imgBug: "assets/cigarrinha_das_raizes.webp",
+                imgDamage: "assets/cigarrinha_raizes_dano.webp"
             },
             {
                 nome: "Bicudo-da-cana (Sphenophorus levis)",
                 desc: "Larvas alimentam-se do rizoma (parte subterrânea). Compromete a brotação e causa falhas expressivas no canavial.",
-                imgBug: "https://placehold.co/600x400/0f1a08/8bc34a?text=Foto:+Bicudo-da-Cana\n(Sphenophorus+levis)",
-                imgDamage: "https://placehold.co/600x400/1a0000/f44336?text=Dano:+Falhas+na+Soqueira\n(Rizoma+Destruido)"
+                imgBug: "assets/bicudo_cana.webp",
+                imgDamage: "assets/bicudo_cana_dano.webp"
             },
             {
                 nome: "Broca-gigante (Castnia licus)",
                 desc: "Perfuram galerias profundas nos colmos, causando a morte do coração da planta. Causa perdas significativas.",
-                imgBug: "https://placehold.co/600x400/0f1a08/8bc34a?text=Foto:+Broca-Gigante\n(Castnia+licus)",
-                imgDamage: "https://placehold.co/600x400/1a0000/f44336?text=Dano:+Coracao+Morto+da+Touceira\n(Galeria+Profunda+no+Colmo)"
+                imgBug: "assets/broca_gigante.webp",
+                imgDamage: "assets/broca_gigante_dano.webp"
             },
             {
                 nome: "Cupins subterrâneos (Heterotermes tenuis)",
                 desc: "Atacam os toletes no plantio, consomem raízes e destroem a base dos colmos. Causam falhas na brotação.",
-                imgBug: "https://placehold.co/600x400/0f1a08/8bc34a?text=Foto:+Cupins+Subterraneos\n(Heterotermes+tenuis)",
-                imgDamage: "https://placehold.co/600x400/1a1400/ffc107?text=Dano:+Base+do+Colmo+Destruida\n(Falhas+na+Brotacao)"
+                imgBug: "assets/cupim_sub.webp",
+                imgDamage: "assets/cupim_sub_dano1.webp"
             }
         ]
     },
@@ -254,32 +254,32 @@ const agroDB = {
             {
                 nome: "Broca-do-café (Hypothenemus hampei)",
                 desc: "Praga-chave. Besouro fêmea perfura o fruto e abre galerias na semente. Deprecia fortemente o valor comercial da bebida.",
-                imgBug: "https://placehold.co/600x400/1a0f08/a1887f?text=Foto:+Broca-do-Cafe\n(Hypothenemus+hampei)",
-                imgDamage: "https://placehold.co/600x400/1a0800/ff9800?text=Dano:+Graos+Perfurados\n(Galeria+na+Semente+-+Deprecia+Bebida)"
+                imgBug: "assets/broca_cafe.webp",
+                imgDamage: "assets/broca_cafe_dano.webp"
             },
             {
                 nome: "Bicho-mineiro (Leucoptera coffeella)",
                 desc: "A lagarta penetra nas folhas e consome o tecido, criando minas esbranquiçadas. Causa queda precoce das folhas.",
-                imgBug: "https://placehold.co/600x400/1a0f08/a1887f?text=Foto:+Bicho-Mineiro\n(Leucoptera+coffeella)",
-                imgDamage: "https://placehold.co/600x400/0f1a08/cddc39?text=Dano:+Minas+Esbranquicadas\n(Queda+Precoce+das+Folhas)"
+                imgBug: "assets/bicho_mineiro.webp",
+                imgDamage: "assets/bicho_mineiro_dano.webp"
             },
             {
                 nome: "Nematoides (Meloidogyne spp.)",
                 desc: "Vermes microscópicos que atacam o sistema radicular. Formam galhas, causando amarelamento e plantas atrofiadas.",
-                imgBug: "https://placehold.co/600x400/1a0f08/a1887f?text=Foto:+Nematoides\n(Meloidogyne+spp.)",
-                imgDamage: "https://placehold.co/600x400/1a1000/ffc107?text=Dano:+Galhas+nas+Raizes\n(Amarelamento+e+Atrofia)"
+                imgBug: "assets/nematoide_1.webp",
+                imgDamage: "assets/nematoide_dano.webp"
             },
             {
                 nome: "Cigarras (Quesada gigas)",
                 desc: "Na fase de ninfa fixam-se nas raízes. Sugam a seiva continuamente, drenando a vitalidade e causando definhamento.",
-                imgBug: "https://placehold.co/600x400/1a0f08/a1887f?text=Foto:+Cigarras\n(Quesada+gigas)",
-                imgDamage: "https://placehold.co/600x400/1a0800/ff9800?text=Dano:+Definhamento+Progressivo\n(Seca+da+Planta+por+Falta+de+Seiva)"
+                imgBug: "assets/cigarra_1.webp",
+                imgDamage: "assets/cigarr_danp.webp"
             },
             {
                 nome: "Ácaro-vermelho (Oligonychus ilicis)",
                 desc: "Atacam a parte superior das folhas. O sintoma é o bronzeamento das folhas, perda de brilho e queda precoce.",
-                imgBug: "https://placehold.co/600x400/1a0f08/a1887f?text=Foto:+Acaro-Vermelho\n(Oligonychus+ilicis)",
-                imgDamage: "https://placehold.co/600x400/1a0800/ff9800?text=Dano:+Bronzeamento+das+Folhas\n(Queda+Precoce+-+Perda+de+Brilho)"
+                imgBug: "assets/acaro_v.webp",
+                imgDamage: "assets/acaro_dano.webp"
             }
         ]
     },
@@ -297,32 +297,32 @@ const agroDB = {
             {
                 nome: "Bicudo-do-algodoeiro (Anthonomus grandis)",
                 desc: "Inimigo nº1. Ataca botões florais e maçãs, causando queda ou má formação. Alto poder de destruição.",
-                imgBug: "https://placehold.co/600x400/0f1a12/80cbc4?text=Foto:+Bicudo-do-Algodoeiro\n(Anthonomus+grandis)",
-                imgDamage: "https://placehold.co/600x400/1a0800/ff9800?text=Dano:+Botoes+Florais+Caidos\n(Maca+Perfurada+e+Abortada)"
+                imgBug: "assets/bicudo_1.webp",
+                imgDamage: "assets/bicudo1_dano.webp"
             },
             {
                 nome: "Mosca-branca (Bemisia tabaci)",
                 desc: "Suga a seiva, transmite viroses e expele honeydew, favorecendo a fumagina que deprecia a pluma.",
-                imgBug: "https://placehold.co/600x400/0f1a12/80cbc4?text=Foto:+Mosca-Branca\n(Bemisia+tabaci)",
-                imgDamage: "https://placehold.co/600x400/111111/e0e0e0?text=Dano:+Fumagina+na+Pluma\n(Viroses+e+Perda+de+Qualidade)"
+                imgBug: "assets/moscabranca_2.webp",
+                imgDamage: "assets/moscabranca2_dano.webp"
             },
             {
                 nome: "Pulgão-do-algodoeiro (Aphis gossypii)",
                 desc: "Ataca brotações, causando enrolamento das folhas. Transmite viroses severas à cultura.",
-                imgBug: "https://placehold.co/600x400/0f1a12/80cbc4?text=Foto:+Pulgao-do-Algodoeiro\n(Aphis+gossypii)",
-                imgDamage: "https://placehold.co/600x400/0a1500/cddc39?text=Dano:+Enrolamento+das+Folhas\n(Viroses+e+Reducao+de+Crescimento)"
+                imgBug: "assets/pulgao_a.webp",
+                imgDamage: "assets/pulgao_dano.webp"
             },
             {
                 nome: "Ácaro-rajado e Ácaro-branco",
                 desc: "Atacam a face inferior das folhas, causando descoloração, necrose e teias. Reduzem a área fotossintética.",
-                imgBug: "https://placehold.co/600x400/0f1a12/80cbc4?text=Foto:+Acaros+do+Algodao\n(Tetranychus+spp.)",
-                imgDamage: "https://placehold.co/600x400/1a1000/ffc107?text=Dano:+Necrose+e+Teias\n(Descoloracao+e+Queda+Foliar)"
+                imgBug: "assets/acaro_rajado.webp",
+                imgDamage: "assets/acarorajado_dano.webp"
             },
             {
                 nome: "Percevejo-castanho e Marrom",
                 desc: "Atacam raízes, botões e maçãs. Sugam a seiva causando abortamento ou manchas amareladas na pluma.",
-                imgBug: "https://placehold.co/600x400/0f1a12/80cbc4?text=Foto:+Percevejo-Castanho\n(Euschistus+heros)",
-                imgDamage: "https://placehold.co/600x400/1a1000/ffc107?text=Dano:+Pluma+Manchada\n(Abortamento+de+Macas)"
+                imgBug: "assets/percevejo_marrom.webp",
+                imgDamage: "assets/percevejo_marrom_dano.webp"
             }
         ]
     }
@@ -419,15 +419,7 @@ fetchWeatherTelemetrics(-23.55, -46.63);
 // 4. INTEGRAÇÃO API SATÉLITE (SENTINEL HUB)
 // ==========================================
 
-const SENTINEL_CONFIG = {
-    clientId:     'a4eb4d97-3d8e-4c7c-a571-7d44816fbc3d',
-    clientSecret: 'Bt1GEagIaKmGDR8d3yAP0RoUpWmVNflp'
-};
-
-// O endpoint /oauth/token do Sentinel Hub bloqueia CORS em browser por design (OAuth client_credentials).
-// Roteamos APENAS o pedido de token por um proxy CORS público — o /api/v1/process já aceita browser diretamente.
-const CORS_PROXY = 'https://corsproxy.io/?';
-
+// O OAuth do Sentinel Hub roda no backend serverless para manter o client_secret fora do navegador.
 /**
  * Função responsável por chamar e desenhar os Mapas NDVI e NDMI
  * via Sentinel-2 L2A (10 m de resolução)
@@ -457,97 +449,39 @@ async function buscarImagemSatelite(data) {
     hudLegendNDMI.classList.remove('visible');
 
     try {
-        // 1. Autenticação — token OAuth roteado por proxy CORS (o Process API aceita browser diretamente)
-        const tokenUrl = 'https://services.sentinel-hub.com/oauth/token';
-        const tokenResponse = await fetch(CORS_PROXY + encodeURIComponent(tokenUrl), {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: `grant_type=client_credentials&client_id=${SENTINEL_CONFIG.clientId}&client_secret=${SENTINEL_CONFIG.clientSecret}`
+        // A rota /api/sentinel valida os parametros e retorna uma imagem PNG do Sentinel-2.
+        const params = new URLSearchParams({
+            lat: String(lat),
+            lon: String(lon)
         });
 
-        if (!tokenResponse.ok) throw new Error('Falha na autenticação Sentinel Hub.');
-
-        const tokenData = await tokenResponse.json();
-        if (!tokenData.access_token) throw new Error('Token inválido.');
-
-        // Janela de 3 meses (filtra nuvens) e bounding box
-        const toDate = new Date();
-        const fromDate = new Date();
-        fromDate.setMonth(toDate.getMonth() - 3);
-        const bbox = [lon - 0.03, lat - 0.03, lon + 0.03, lat + 0.03];
-
-        // 2. Mapa NDVI (Saúde Vegetativa)
-        const evalscriptNDVI = `
-            //VERSION=3
-            function setup() { return { input: ["B08", "B04", "dataMask"], output: { bands: 4 } }; }
-            function evaluatePixel(sample) {
-                let ndvi = (sample.B08 - sample.B04) / (sample.B08 + sample.B04 + 0.0001);
-                if (ndvi < 0.1) return [0.5, 0.5, 0.5, sample.dataMask];
-                if (ndvi < 0.3) return [0.65, 0.35, 0.07, sample.dataMask];
-                if (ndvi < 0.5) return [0.9, 0.9, 0.2, sample.dataMask];
-                if (ndvi < 0.7) return [0.3, 0.8, 0.3, sample.dataMask];
-                return [0.0, 0.4, 0.0, sample.dataMask];
-            }
-        `;
-
-        const sentinelBody = (evalscript) => JSON.stringify({
-            input: {
-                bounds: { bbox },
-                data: [{ type: 'sentinel-2-l2a', dataFilter: { timeRange: { from: fromDate.toISOString(), to: toDate.toISOString() }, maxCloudCoverage: 10 } }]
-            },
-            output: { width: 800, height: 450, responses: [{ identifier: 'default', format: { type: 'image/png' } }] },
-            evalscript
+        const loadSatelliteImage = (img, layer, onLoad) => new Promise((resolve, reject) => {
+            img.onload = () => {
+                onLoad();
+                resolve();
+            };
+            img.onerror = () => reject(new Error(`Falha ao carregar mapa ${layer.toUpperCase()}.`));
+            img.src = `/api/sentinel?layer=${layer}&${params.toString()}`;
         });
 
-        const authHeaders = {
-            'Authorization': `Bearer ${tokenData.access_token}`,
-            'Content-Type': 'application/json'
-        };
-
-        fetch('https://services.sentinel-hub.com/api/v1/process', {
-            method: 'POST', headers: authHeaders, body: sentinelBody(evalscriptNDVI)
-        })
-        .then(res => res.blob())
-        .then(blob => {
-            imgNDVI.src = URL.createObjectURL(blob);
-            imgNDVI.onload = () => {
+        await Promise.all([
+            loadSatelliteImage(imgNDVI, 'ndvi', () => {
                 imgNDVI.classList.add('loaded');
                 hudLegendNDVI.classList.add('visible');
                 infoSolo.innerText = data.manejo;
                 infoNdvi.innerHTML = `<strong>Análise Biológica:</strong> ${data.laudoSatelite}`;
-            };
-        });
-
-        // 3. Mapa NDMI (Umidade do Solo)
-        const evalscriptNDMI = `
-            //VERSION=3
-            function setup() { return { input: ["B08", "B11", "dataMask"], output: { bands: 4 } }; }
-            function evaluatePixel(sample) {
-                let ndmi = (sample.B08 - sample.B11) / (sample.B08 + sample.B11 + 0.0001);
-                if (ndmi < -0.2) return [0.54, 0.27, 0.07, sample.dataMask];
-                if (ndmi < 0.0)  return [0.82, 0.70, 0.54, sample.dataMask];
-                if (ndmi < 0.2)  return [1.0,  1.0,  1.0,  sample.dataMask];
-                if (ndmi < 0.4)  return [0.53, 0.80, 0.92, sample.dataMask];
-                return [0.0, 0.0, 1.0, sample.dataMask];
-            }
-        `;
-
-        fetch('https://services.sentinel-hub.com/api/v1/process', {
-            method: 'POST', headers: authHeaders, body: sentinelBody(evalscriptNDMI)
-        })
-        .then(res => res.blob())
-        .then(blob => {
-            imgNDMI.src = URL.createObjectURL(blob);
-            imgNDMI.onload = () => {
+            }),
+            loadSatelliteImage(imgNDMI, 'ndmi', () => {
                 imgNDMI.classList.add('loaded');
                 hudLegendNDMI.classList.add('visible');
                 infoLaudoNDMI.innerText = 'Identificadas faixas de absorção hídrica. Avalie zonas marrons para ajustar a pressão do pivô central de irrigação.';
-            };
-        });
+            })
+        ]);
 
     } catch (error) {
         console.error('Erro Sentinel Hub:', error);
-        infoNdvi.innerText = 'Falha na autenticação. Verifique as credenciais Sentinel Hub.';
+        infoNdvi.innerText = 'Falha ao carregar imagens orbitais. Verifique as variáveis de ambiente Sentinel Hub na Vercel.';
+        infoLaudoNDMI.innerText = 'Mapa hídrico indisponível no momento.';
     }
 }
 
